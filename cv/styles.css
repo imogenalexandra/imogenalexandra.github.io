@@ -5,13 +5,14 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f7f7f7;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #000000;
     margin: 0;
+    color: #E0FF4F
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Press Start 2P';
 }
 .container {
     max-width: 1200px;
@@ -22,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 
 header {
-    background-color: #fff;
-    border-bottom: 3px solid #FFEDE1;
+    background-color: #E15634;
+    border-bottom: 3px solid #F85A3E;
     padding: 30px;
 }
     header div {
@@ -48,7 +49,7 @@ main {
     padding: 0 30px 30px 30px;
 }
     main section h2 {
-        color: #4a69a0;
+        color: #E15634;
         margin-top: 40px;
     }
     main section h3 {
@@ -58,6 +59,6 @@ main {
     main section h4 {
         margin-top: 0;
         font-style: italic;
-        color: #505050;
+        color: #ffffff;
         font-weight: 400;
     }
