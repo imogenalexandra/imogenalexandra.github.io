@@ -96,3 +96,53 @@ button {
   margin: 30px;
   padding: 10px;
 }
+
+br {
+  color: #000000
+}
+
+.item .image {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 30px;
+}
+  .item .image img {
+    width: 100%;
+    height: auto;
+  }
+
+.item .info {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+  .item .info h3 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+
+  .item .info p {
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+  }
+
+#result-type {
+  color: #ffffff;
+}
+
+section h2 {
+  font-size: 10px;
+}
+
+#full-item-view img {
+  width: 100%;
+
+}
+
+#back-to-start {
+  margin-left: 0px;
+  margin-top: 0px;
+}

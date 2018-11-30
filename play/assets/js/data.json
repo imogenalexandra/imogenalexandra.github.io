@@ -1,0 +1,28 @@
+{
+    "candidates": [
+        {
+            "id": 1,
+            "name": "Slug",
+            "short_description": "Good news",
+            "long_description" : "Today is well suited for making new friends",
+            "thumbnail": "assets/images/urban-slug.jpg",
+            "category": "slug"
+        },
+        {
+            "id": 2,
+            "name": "Worm",
+            "short_description": "Miles Davis is a designer based in London",
+            "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+            "thumbnail": "assets/images/country-worm.jpg",
+            "category": "worm"
+        },
+        {
+            "id": 3,
+            "name": "Rodent",
+            "short_description": "Brenda Lee is a project manager based in London",
+            "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+            "thumbnail": "assets/images/peeping-rodent.jpeg",
+            "category": "rodent"
+        }
+    ]
+}

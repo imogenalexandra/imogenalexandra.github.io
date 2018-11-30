@@ -22,29 +22,60 @@
     </header>
 
     <main>
-      <section>
-          <p>
-            What are your vibes today?
-          </p>
-        </br>
-          <p> Please select a creature from the drop down below</p>
-      </section>
+      <div id="results-list">
+        <section>
+            <p>
+              What are your vibes today?
+            </p>
+          </br>
+            <p> Please select a creature from the drop down below</p>
+        </section>
+        <section>
+            <form>
+              <div id="filter" class="select">
+                  <select>
+                    <option> Choose one...</option>
+                    <option value="slug">Slug</option>
+                    <option value="worm">Worm</option>
+                    <option value="rodent">Rodent</option>
+                  </select>
+              </div>
+                <button type="button" id="filter-data"> view horoscope </button>
+            </form>
+        </section>
 
-      <section>
-          <form>
-            <div class="select">
-                <select>
-                  <option> Choose one...</option>
-                  <option value="slug">Slug</option>
-                  <option value="worm">Worm</option>
-                  <option value="rodent">Rodent</option>
-                </select>
-            </div>
-              <button> view horoscope </button>
-          </form>
-      </section>
+        <section>
+            <h2 style="display: none;">Showing results for <span id="result-type">Slug</span></h2>
+          </br>
+              <div id="filtered-data">
+
+              </div>
+        </section>
+      </div>
+      <div id="full-item-view" style="display:none;">
+        <button id="back-to-start" type="button">Go back</button>
+        <div class="image">
+            <img src="assets/images/peeping-rodent.jpeg" alt="Slug pic" />
+        </div>
+        <div class="info">
+            <h3>Rodent</h3>
+            <p>You might be full of energy under the full moon on the twenty-second, and people could be tugging at you to fill up your time with their concerns. You won't let that happen, though, Rodent. Pamper your inner child - and your deeper mind - with more quality, private peace and quiet. Let the world buzz away without you. </p>
+        </div>
+      </div>
+
 
     </main>
+
+    <!-- Example JS link -->
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+   <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+   <script src="assets/js/app.js"></script>
+
+
   </body>
 
 </html>

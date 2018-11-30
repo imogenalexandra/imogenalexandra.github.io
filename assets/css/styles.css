@@ -48,6 +48,91 @@ body {
     vertical-align: middle;
 }
 
+.primary-navigation {
+  padding:8px 0;
+  font-family: 'Press Start 2P', monospace;
+
+}
+
+.primary-navigation-item {
+  display:inline;
+  padding:0 20px;
+}
+
+.primary-navigation-item a {
+  color:#8cff71;
+  transition:color 0.2s linear;
+  text-decoration: none;
+  position: relative;
+}
+
+.primary-navigation-item a:hover {
+  color:#ff9fe9;
+  /* text-decoration:line-through; */
+}
+
+.primary-navigation-container {
+  padding-left:5px;
+  margin-bottom:0;
+}
+
+.primary-navigation-item a:before, .primary-navigation-item a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #ff9fe9;
+}
+
+.primary-navigation-item a:before {
+  left: -2.5px;
+}
+.primary-navigation-item a:after {
+  right: 2.5px;
+  background: #ff9fe9;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.primary-navigation-item a:hover:before {
+  background: #ff9fe9;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.primary-navigation-item a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.stamp {
+  position: absolute;
+  color: #8cff71;
+  font-size: 40px;
+  transform: rotate(45deg);
+}
+
+.utility-belt {
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+  z-index:9999999;
+}
+
+.utility-button {
+  display:block;
+  background-color:#fff;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  padding:10px;
+}
+
+.utility-button:hover {
+  cursor:pointer;
+}
+
 /* @media screen and (max-width: 1000px) {
     .column {
         -ms-flex: 50%;
